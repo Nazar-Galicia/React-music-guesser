@@ -1,0 +1,162 @@
+
+.background {
+    position: fixed;
+    inset: 0;
+    z-index: 0;
+    overflow: hidden;
+    pointer-events: none;
+    background: var(--color-background);
+}
+
+.background__circle {
+    position: absolute;
+    border-radius: 50%;
+    background: linear-gradient(
+            135deg,
+            rgba(171, 133, 255, 0.45),
+            rgba(121, 82, 214, 0.18)
+    );
+}
+
+.background__circle--top-left {
+    width: 260px;
+    height: 260px;
+    top: -145px;
+    left: -125px;
+    opacity: 0.35;
+}
+
+.background__circle--top-center {
+    width: 280px;
+    height: 280px;
+    top: -185px;
+    left: 33%;
+    background: rgba(151, 112, 255, 0.4);
+}
+
+.background__circle--top-right {
+    width: 220px;
+    height: 220px;
+    top: -110px;
+    right: -115px;
+    opacity: 0.5;
+}
+
+.background__circle--right {
+    width: 340px;
+    height: 340px;
+    top: 110px;
+    right: -260px;
+    opacity: 0.65;
+}
+
+.background__circle--bottom-left {
+    width: 500px;
+    height: 500px;
+    bottom: -350px;
+    left: -90px;
+    opacity: 0.55;
+}
+
+.background__circle--bottom-right {
+    width: 420px;
+    height: 420px;
+    bottom: -290px;
+    right: -220px;
+    opacity: 0.65;
+}
+
+.background__circle--bottom-center {
+    width: 55px;
+    height: 55px;
+    bottom: 55px;
+    left: 29%;
+    opacity: 0.8;
+}
+
+.background__ring {
+    position: absolute;
+    border: 45px solid rgba(166, 130, 255, 0.12);
+    border-radius: 50%;
+}
+
+.background__ring--top {
+    width: 450px;
+    height: 450px;
+    top: -320px;
+    left: 28%;
+}
+
+.background__ring--bottom-left {
+    width: 600px;
+    height: 600px;
+    bottom: -500px;
+    left: -150px;
+    border-width: 55px;
+}
+
+.background__dot {
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background: rgba(158, 117, 255, 0.55);
+}
+
+.background__dot--left {
+    bottom: 12%;
+    left: 29%;
+}
+
+.background__dot--right {
+    bottom: 9%;
+    right: 17%;
+}
+
+.background__circle--center-one {
+    width: 110px;
+    height: 110px;
+    top: 28%;
+    left: 32%;
+    opacity: 0.35;
+}
+
+.background__circle--center-two {
+    width: 65px;
+    height: 65px;
+    top: 52%;
+    left: 43%;
+    opacity: 0.3;
+}
+
+.background__circle--center-three {
+    width: 180px;
+    height: 180px;
+    top: 38%;
+    right: 28%;
+    opacity: 0.18;
+}
+
+.background__circle--center-four {
+    width: 45px;
+    height: 45px;
+    top: 24%;
+    right: 42%;
+    opacity: 0.55;
+}
+
+.background__circle--center-five {
+    width: 130px;
+    height: 130px;
+    bottom: 22%;
+    right: 38%;
+    opacity: 0.2;
+}
+
+.background__circle--center-six {
+    width: 75px;
+    height: 75px;
+    top: 65%;
+    left: 18%;
+    opacity: 0.3;
+}

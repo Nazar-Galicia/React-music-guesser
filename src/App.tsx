@@ -1,8 +1,11 @@
 import type {FC} from "react";
+import Background from "@/components/Background/Background.tsx";
 
 const App: FC = () => {
     return (
-        <h1>Hello</h1>
+        <>
+            <Background />
+        </>
     )
 }
 
