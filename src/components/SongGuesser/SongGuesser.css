@@ -1,0 +1,16 @@
+.song-guesser {
+    display: flex;
+    align-items: center;
+    gap: var(--space-8);
+    max-width: var(--container-width);
+    min-height: calc(100vh - var(--header-height));
+    margin: 0 auto;
+    padding: 0 var(--page-padding);
+}
+
+@media (max-width: 768px) {
+    .song-guesser {
+        flex-direction: column;
+        gap: var(--space-4);
+    }
+}
