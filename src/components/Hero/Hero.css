@@ -3,9 +3,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 38%;
+    width: 100%;
     min-height: 600px;
-    overflow: hidden;
 }
 
 .left-section__content {
