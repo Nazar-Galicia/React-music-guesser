@@ -7,6 +7,7 @@ import {
     Music2
 } from "lucide-react";
 import type {FC} from "react";
+import './GameSection.css'
 
 const GameSection: FC = () => {
     return (
