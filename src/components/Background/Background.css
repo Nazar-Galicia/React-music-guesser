@@ -160,3 +160,91 @@
     left: 18%;
     opacity: 0.3;
 }
+
+.background__circle {
+    animation: circle-pulse 8s ease-in-out infinite;
+    transform-origin: center;
+    will-change: transform, opacity;
+}
+
+.background__circle--top-left {
+    animation-duration: 11s;
+}
+
+.background__circle--top-center {
+    animation-duration: 9s;
+    animation-delay: -3s;
+}
+
+.background__circle--top-right {
+    animation-duration: 12s;
+    animation-delay: -5s;
+}
+
+.background__circle--right {
+    animation-duration: 14s;
+    animation-delay: -7s;
+}
+
+.background__circle--bottom-left {
+    animation-duration: 13s;
+    animation-delay: -4s;
+}
+
+.background__circle--bottom-right {
+    animation-duration: 10s;
+    animation-delay: -6s;
+}
+
+.background__circle--bottom-center {
+    animation-duration: 7s;
+    animation-delay: -2s;
+}
+
+.background__circle--center-one {
+    animation-duration: 9s;
+    animation-delay: -4s;
+}
+
+.background__circle--center-two {
+    animation-duration: 12s;
+    animation-delay: -8s;
+}
+
+.background__circle--center-three {
+    animation-duration: 15s;
+    animation-delay: -5s;
+}
+
+.background__circle--center-four {
+    animation-duration: 8s;
+    animation-delay: -3s;
+}
+
+.background__circle--center-five {
+    animation-duration: 13s;
+    animation-delay: -9s;
+}
+
+.background__circle--center-six {
+    animation-duration: 10s;
+    animation-delay: -6s;
+}
+
+@keyframes circle-pulse {
+    0%, 100% {
+        transform: scale(1);
+        opacity: 0.15;
+    }
+
+    50% {
+        transform: scale(1.18);
+        opacity: 0.55;
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .background__circle {
+        animation: none;
+    }
+}
